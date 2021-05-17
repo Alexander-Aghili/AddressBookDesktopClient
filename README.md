@@ -1,4 +1,4 @@
-# AddressBookDesktopClient
+# Address Book Desktop Client
 
 Guide to using:
 The JAR uses no module dependencies. Therefore, depending on how you have your java installed, it might not work.
