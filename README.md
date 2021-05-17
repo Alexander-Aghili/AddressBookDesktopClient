@@ -54,3 +54,5 @@ Once pressed, it will check for any edits or new contacts and display them.
 
 Validation: User validation consists on ensuring that all fields have text. It also checks that the length of the phone number is resonable. 
 When Adding the Contact, it checks that the ID created is unique. It checks that all the information is unique, if it is not, it just returns to the main screen.
+
+Dependencies: https://github.com/Alexander-Aghili/AddressBookDesktopClient/tree/master/dependencies
