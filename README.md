@@ -8,6 +8,7 @@ I used JDK and JRE 1.8 to compile and run, though it should work on JRE 8+.
 To get it working on Eclipse, I did the following:
 - Add JavaFX dependencies, as well as jersey dependencies, like jersey bundle, and org.json(All dependencies as well as links to get them will be at the bottom)
 - Add the JavaFX path to the module VM arguments: Go to Run Configurations -> Arugments -> VM Arguments -> --module-path=${JavaFXSDK} --add-modules=javafx.controls,javafx.fxml
+
 This must occur due to a module dependency issue I had early on. 
 If wanted, it is possible to create a new JavaFX program with module dependencies and then add the proper dependecies through that.
 Further reading here: https://gist.github.com/stevenliebregt/bc62a382fc43064136b662ee62172ab3
